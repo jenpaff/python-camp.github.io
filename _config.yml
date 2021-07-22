@@ -22,8 +22,8 @@ title: Moinworld Python Sommer Camp
 email: jenpaff0@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Eine Einführung in die Kunst des Programmierens in Python
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jenpaff.github.io/python-camp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jenpaff
 github_username:  jenpaff
 
