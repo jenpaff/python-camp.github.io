@@ -1,0 +1,11 @@
+fileignoreconfig:
+- filename: python_course/part3_1.md
+  checksum: d3026b0a73ac9a7d6ec62ebd78971010b7446af7eb7f40a2769ff9ac2c3d9d13
+- filename: python_course/part3_2.md
+  checksum: 0b9522e4d8573e8be23028e5b40b46bb457027f671bb6aeca43cd5b6589f7629
+- filename: python_course/part3_3.md
+  checksum: ae35870d923072163b599fe2ca17e2271194c30e8f6c5bbb2f754384ab9c72e3
+- filename: python_course/part1_2.md
+  checksum: 4954ad7205ee05e120b189c0b4b8d5b2a8c0f4656522179e24212528a8676f4c
+- filename: Gemfile.lock
+  checksum: b9d461ef1693cf5f2e24a2ee886e581da590ecac299e75a0bc1a369fbe4dc290
