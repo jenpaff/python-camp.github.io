@@ -1,7 +1,13 @@
 # python-camp.github.io
 Created for moinworld girls python summer camp available on [https://jenpaff.github.io/python-camp.github.io/](https://jenpaff.github.io/python-camp.github.io/)
 
+## Download dependencies
+```
+bundle install
+```
+
 ## Run locally
+
 ```shell
 bundle exec jekyll serve
 ```
