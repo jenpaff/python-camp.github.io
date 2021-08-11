@@ -3,23 +3,22 @@ layout: default
 ---
 
 Baustein 1 Meeting 2
-
-*   [1\. Aufwärmübungen](#sec-1)
-    *   [1.1. Ampelschaltung](#sec-1-1)
-    *   [1.2. Getränkeautomat](#sec-1-2)
-*   [2\. Listen](#sec-2)
-*   [3\. for-Schleife](#sec-3)
-*   [4\. Übung: Labyrinth](#sec-4)
-*   [5\. Weitere Übungen](#sec-5)
-    *   [5.1. for als while](#sec-5-1)
-    *   [5.2. Pyramiden bauen](#sec-5-2)
-    *   [5.3. Echte Pyramide](#sec-5-3)
-    *   [5.4. Zahlenmuster](#sec-5-4)
-
-Baustein 1 Meeting 2
 ====================
 
 Listen und die for-schleife
+
+*   [1\. Aufwärmübungen](#1-aufwrmbungen)
+    *   [1.1. Ampelschaltung](#11-ampelschaltung)
+    *   [1.2. Getränkeautomat](#12-getrnkeautomat)
+*   [2\. Listen](#2-listen)
+*   [3\. for-Schleife](#3-for-schleife)
+*   [4\. Übung: Labyrinth](#4-bung-labyrinth)
+*   [5\. Weitere Übungen](#5-weitere-bungen)
+    *   [5.1. for als while](#51-for-als-while)
+    *   [5.2. Pyramiden bauen](#52-pyramiden-bauen)
+    *   [5.3. Echte Pyramide](#53-echte-pyramide)
+    *   [5.4. Zahlenmuster](#54-zahlenmuster)
+    
 
 1 Aufwärmübungen
 ----------------

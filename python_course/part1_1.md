@@ -5,40 +5,44 @@ layout: default
 Baustein 1 Meeting 1
 ====================
 
-*   [1\. Hello World](#sec-1)
-*   [2\. Datentypen](#sec-2)
-*   [3\. Variablen](#sec-3)
-*   [4\. Basisoperationen](#sec-4)
-    *   [4.1. Übung: Einkauf](#sec-4-1)
-*   [5\. Flusskontrolle](#sec-5)
-*   [6\. Schleifen](#sec-6)
-*   [7\. Kommentare](#sec-7)
-*   [8\. Zum Üben](#sec-8)
-*   [9\. Code](#sec-9)
-
 Hello World, Datentypen, Variablen, Verzweigungen und Schleifen
+
+*   [1\. Hello World](#1-hello-world)
+*   [2\. Datentypen](#2-datentypen)
+*   [3\. Variablen](#3-variablen)
+*   [4\. Basisoperationen](#4-basisoperationen)
+    *   [4.1. Übung: Einkauf](#41-bung-einkauf)
+*   [5\. Flusskontrolle](#5-flusskontrolle)
+*   [6\. Schleifen](#6-schleifen)
+*   [7\. Kommentare](#7-kommentare)
+*   [8\. Zum Üben](#8-zum-ben)
+*   [9\. Code](#9-code)
 
 1 Hello World
 -------------
 
 Beim Lernen von Programmiersprachen ist es eine weit verbreitete Tradition, als Erstes ein Programm zu schreiben, welches einfach nur `hello world` ausgibt. Diese Tradition wollen wir natürlich nicht brechen, außer dass wir es auf die Hamburger Art machen.
 
+```python
 print("Moin world")
+```
 
+```
 Moin world
+```
 
 🎉
 
 Führt man diese Codezeile in Thonny aus, erscheint die Ausgabe in einem separaten Fenster namens "Shell". Die shell ist eine rein textuelle Benutzeroberfläche um mit dem Computer zu arbeiten: Der Computer kann hier Ausgaben reinschreiben, und auch der Nutzer kann Text eingeben (das lernen wir später kennen). In diesem Fenster werden wir also die Ausgaben unserer Programme sehen, d.h. alles was durch den `print`\-Befehl ausgegeben wird. Auch Fehlermeldungen erscheinen hier.
 
-`print` ist eine Funktion, das bedeutet das der Print-Aufruf ein bes timmtes Verhalten auslöst. Funktionen werden wir später genauer kennen lernen, und wir werden auch eigene Funktionen schreiben.
+`print` ist eine Funktion, das bedeutet das der Print-Aufruf ein bestimmtes Verhalten auslöst. Funktionen werden wir später genauer kennen lernen, und wir werden auch eigene Funktionen schreiben.
 
 Weiterhin ist `print` eine sogenannte Built-In Funktion, d.h. sie ist ein fester Bestandteil der Programmiersprache Python und ihr könnt jederzeit auf sie zugreifen. Sie gibt das Funktionsargument auf der Konsole ("Shell" in Thonny) aus. Es gibt [eine Vielzahl von built-in Funktionen](https://docs.python.org/3/library/functions.html), einige davon werden wir auch noch im Kurs kennenlernen.
 
 2 Datentypen
 ------------
 
-"Moin world" ist mit Gänsefüßchen abgetrennt. Das bedeutet, dass "Moin world" Daten in Form einer Zeichenkette sind. Daten können als Literale (dh. explizit in das python-programm reingeschrieben, wie in diesem Fall) vorliegen. Oder sie können aus Funktionsaufrufen erhalten oder importiert werden (dazu später mehr). Es gibt auch Daten in Form von Zahlen. Die Literale dazu sehen dann so aus:
+"Moin world" ist mit Gänsefüßchen abgetrennt. Das bedeutet, dass "Moin world" Daten in Form einer Zeichenkette ("string") sind. Daten können als Literale (dh. explizit in das python-programm reingeschrieben, wie in diesem Fall) vorliegen. Oder sie können aus Funktionsaufrufen erhalten oder importiert werden (dazu später mehr). Es gibt auch Daten in Form von Zahlen. Die Literale dazu sehen dann so aus:
 
 ```python
 print(1)   # Das ist eine Ganzzahl, ein sog. Integer
@@ -122,8 +126,6 @@ Wieder was gelernt
 
 Zahlen und Zeichenketten im Program zu haben ist ja schön und gut, aber was können wir damit anstellen? Mit Zahlen können wir z.B. rechnen, in der üblichen Schreibweise.
 
-Hier ist es sehr hilfreich mit dem Debugger von Thonny zu arbeiten. Mit "Step into" (zweiter Pfeil neben dem Käfer) könnt ihr euch ganz genau ansehen, wie die einzelnen Befehle ausgewertet werden.
-
 ```python
 x = 10
 y = 20
@@ -133,11 +135,11 @@ print(x + y)
 z = x + y
 
 print(z + 2)
-print(2 \* 2)
+print(2 * 2)
 print(5 - 2)
 print(12 / 4)
-print(12 // 4) \# Ganzzahlige Division
-print(10 \* (20 + 5)) \# Ausdrücke können beliebig geklammert werden
+print(12 // 4) # Ganzzahlige Division
+print(10 * (20 + 5)) # Ausdrücke können beliebig geklammert werden
 ```
 ```python
 30
@@ -149,19 +151,34 @@ print(10 \* (20 + 5)) \# Ausdrücke können beliebig geklammert werden
 250
 ```
 
+### Debugging
+
+Hier ist es sehr hilfreich mit dem Debugger von Thonny zu arbeiten, dieser wird gestartet indem man auf den Käfer klickt:
+![Debugger starten](img/debug.png "Debugger starten")
+
+Mit "Step into" (zweiter Pfeil neben dem Käfer) könnt ihr euch ganz genau ansehen, wie die einzelnen Befehle ausgewertet werden.
+![Step into](img/step_into.png "Step into")
+
+Schlussendlich, hier noch eine witzige Legende zur [Herkunft des Wortes "debugging"](https://de.wikipedia.org/wiki/Debugger#Namensherkunft)
+
+### Mehr rechnen
+
 Neben der Grundrechenarten gibt es noch ein paar weitere Operatoren.
 
+"Modulo" gibt den Rest bei einer ganzzahligen Division. Um zu verstehen warum `13 % 5 == 3`, kann man das Beispiel vom Teilen von z.B. Keksen auf eine Gruppe Freunde vorstellen. Wenn ihr 13 Kekse auf 5 freunde fair aufteilen wollt (jeder bekommt die gleiche Anzahl, und man kann Kekse nicht weiter teilen), dann bekommt jeder 2 Kekse und 3 bleiben übrig. Die `3` ist der modulo💡.
+
 ```python
-print(13 % 5) \# Modulo
-print(4 \*\* 4) \# Potenz
+print(13 % 5) # Modulo
+print(4 ** 4) # Potenz
 ```
 ```python
 3
 256
 ```
 
+### Interessantes über Floating Points
 
-"Modulo" gibt den Rest bei einer ganzzahligen Division. Um zu verstehen warum `13 % 5 == 3`, kann man das Beispiel vom Teilen von z.B. Keksen auf eine Gruppe Freunde vorstellen. Wenn ihr 13 Kekse auf 5 freunde fair aufteilen wollt (jeder bekommt die gleiche Anzahl, und man kann Kekse nicht weiter teilen), dann bekommt jeder 2 Kekse und 3 bleiben übrig. Die `3` ist der modulo💡.
+Nun lasst uns mal über Floating Points (Fließkommazahlen) sprechen. 
 
 ```python
 print(0.1 + 0.2)
@@ -171,10 +188,14 @@ print(0.1 + 0.2)
 0.30000000000000004
 ```
 
-
 Warum kommt bei `0.1 + 0.2` so ein krummes Ergebnis raus? Wie stellt der Computer "unendliche" Kommazahlen dar wie z.B. `1/3 = 0.333333.. `?
+Auch wenn es gerade komisch erscheint, es ist wichtig dies im Gedächnis zu behalten.
+Zum Beispiel die Zahl 0.1 kann nicht als binäre Zahl representiert werden und daher kommt es bei Fliesskommazahlen (0.1, 0.2, 0.3…) öfters zu kleinen Rundungsfehlern. 
+Mehr dazu kann man in der [offiziellen Python Doku nachlesen](https://docs.python.org/3/tutorial/floatingpoint.html)
 
-Zeichenketten unterstützen übrigens auch die Operationen `\*` und `+`. Mit `+` lassen sich zwei Zeichenketten zusammenfügen, und `\*` wiederholt eine Zeichenkette.
+### Zeichenketten 
+
+Zeichenketten unterstützen übrigens auch die Operationen `*` und `+`. Mit `+` lassen sich zwei Zeichenketten zusammenfügen, und `*` wiederholt eine Zeichenkette.
 
 ```python
 name = "Jürgen"
@@ -206,6 +227,23 @@ Angenommen ihr habt 10 Euro dabei und wollt damit eine Schokolade, einen Lolli u
 |Schokolade|1.5|
 |Lolli|2|
 |Achterbahn|1|
+
+### Mögliche Lösung zur 4.1 Übung: Einkauf
+
+```python
+schokolade = 1.5
+lolli = 1
+achterbahn = 3
+
+kosten = schokolade + lolli * 2 + achterbahn
+r_geld = 10 - kosten
+
+print("Kosten:", kosten, "Rückgeld:", r_geld)
+```
+
+```
+Kosten: 6.5 Rückgeld: 3.5
+```
 
 5 Flusskontrolle
 ----------------

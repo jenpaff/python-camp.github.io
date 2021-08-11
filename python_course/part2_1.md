@@ -5,11 +5,11 @@ layout: default
 Baustein 2 Meeting 1
 ====================
 
-*   [1\. Wiederholung](#sec-1)
-    *   [1.1. Teil 1: Variablen und Datentypen, Rechnen](#sec-1-1)
-    *   [1.2. Teil 2: while - Schleife, Bedingungen](#sec-1-2)
-    *   [1.3. Teil 3: Funktionen, Listen, For - Schleifen](#sec-1-3)
-    *   [1.4. Teil 4: Objektorientierung](#sec-1-4)
+*   [1\. Wiederholung](#1-wiederholung)
+    *   [1.1. Teil 1: Variablen und Datentypen, Rechnen](#11-teil-1-variablen-und-datentypen-rechnen)
+    *   [1.2. Teil 2: while - Schleife, Bedingungen](#12-teil-2-while---schleife-bedingungen)
+    *   [1.3. Teil 3: Funktionen, Listen, For - Schleifen](#13-teil-3-funktionen-listen-for---schleifen)
+    *   [1.4. Teil 4: Objektorientierung](#14-teil-4-objektorientierung)
     
 
 Herzlich wilkommen zum zweiten Teil des Kurses! Nachdem wir die Grundlagen des Programmierens kennengelernt haben, liegt der Fokus in diesem Abschnitt auf dem Sammeln von Erfahrungen und dem Entdecken von coolen Dingen die man mit Python tun kann. In den letzten zwei Stunden implementieren wir ein richtiges Projekt! Welches Projekt das sein soll könnt ihr selber über eine Abstimmung in Slack festlegen. Eigene Ideen könnt ihr auch gerne an mich senden.

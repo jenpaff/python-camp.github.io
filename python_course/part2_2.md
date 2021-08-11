@@ -5,14 +5,14 @@ layout: default
 Baustein 2 Meeting 2
 ====================
 
-*   [1\. Dateien lesen und schreiben](#sec-1)
-*   [2\. Übungen (Dateien)](#sec-2)
-    *   [2.1. Dateien zusammenführen](#sec-2-1)
-    *   [2.2. Wörter zählen](#sec-2-2)
-*   [3\. Bibliotheken](#sec-3)
-    *   [3.1. math](#sec-3-1)
-    *   [3.2. time](#sec-3-2)
-    *   [3.3. random](#sec-3-3)
+*   [1\. Dateien lesen und schreiben](#1-dateien-lesen-und-schreiben)
+*   [2\. Übungen (Dateien)](#2-bungen-dateien)
+    *   [2.1. Dateien zusammenführen](#21-dateien-zusammenfhren)
+    *   [2.2. Wörter zählen](#22-wrter-zhlen)
+*   [3\. Bibliotheken](#3-bibliotheken)
+    *   [3.1. math](#31-math)
+    *   [3.2. time](#32-time)
+    *   [3.3. random](#33-random)
 
 
 Thema der heutigen Einheit sind hauptsächlich _Bibliotheken_. Bibliotheken sind im Kern von anderen Entwicklern bereitgestellte Funktionen und Klassen, die es uns erlauben, vorgefertigte Implementierungen zu nutzen und so umfangreiche Programme zu schreiben.

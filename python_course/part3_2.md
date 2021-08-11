@@ -5,10 +5,10 @@ layout: default
 Baustein 3 Meeting 1
 ====================
 
-* [1\. Objektorientierte Programmierung (forts.)](#sec-1)
-    * [1.1. Übung: Highscore Liste](#sec-1-1)
-    * [1.2. Vererbung](#sec-1-2)
-* [2\. Higher order Funktionen, Lambda-Funktionen](#sec-2)
+* [1\. Objektorientierte Programmierung (forts.)](#1-objektorientierte-programmierung-forts)
+    * [1.1. Übung: Highscore Liste](#11-bung-highscore-liste)
+    * [1.2. Vererbung](#12-vererbung)
+* [2\. Higher order Funktionen, Lambda-Funktionen](#2-higher-order-funktionen-lambda-funktionen)
 
 
 1 Objektorientierte Programmierung (forts.)

@@ -2,8 +2,8 @@
 layout: default
 ---
 
-*   [1\. Teil 1](#sec-1)
-*   [2\. Teil 2](#sec-2)
+*   [1\. Teil 1](#1-teil-1)
+*   [2\. Teil 2](#2-teil-2)
 
 In diesem Projekt thematisieren wir die Datenanalyse und Visualisierung mit python.
 

@@ -5,20 +5,20 @@ layout: default
 Baustein 1 Meeting 4
 ====================
 
-*   [1\. Lösungen zu den letzten Aufgaben](#sec-1)
-    *   [1.1. Funktionen](#sec-1-1)
-    *   [1.2. Number guessing game](#sec-1-2)
-*   [2\. Mengen](#sec-2)
-    *   [2.1. Übung: gemeinsame Buchstaben](#sec-2-1)
-*   [3\. Objektorientierte Programmierung](#sec-3)
-    *   [3.1. Klassen und Objekte](#sec-3-1)
-    *   [3.2. Übung: Objektorientiertes Bankkonto](#sec-3-2)
-    *   [3.3. Übung (fortgeschritten): Piraterie](#sec-3-3)
-*   [4\. Weiterführend: Python lernen](#sec-4)
-    *   [4.1. CodeCombat](#sec-4-1)
-    *   [4.2. Coding - Katas](#sec-4-2)
-    *   [4.3. Online - Kurse](#sec-4-3)
-    *   [4.4. Eigene Projekte](#sec-4-4)
+*   [1\. Lösungen zu den letzten Aufgaben](#1-lsungen-zu-den-letzten-aufgaben)
+    *   [1.1. Funktionen](#11-funktionen)
+    *   [1.2. Number guessing game](#12-number-guessing-game)
+*   [2\. Mengen](#2-mengen)
+    *   [2.1. Übung: gemeinsame Buchstaben](#21-bung-gemeinsame-buchstaben)
+*   [3\. Objektorientierte Programmierung](#3-objektorientierte-programmierung)
+    *   [3.1. Klassen und Objekte](#31-klassen-und-objekte)
+    *   [3.2. Übung: Objektorientiertes Bankkonto](#32-bung-objektorientiertes-bankkonto)
+    *   [3.3. Übung (fortgeschritten): Piraterie](#33-bung-fortgeschritten-piraterie)
+*   [4\. Weiterführend: Python lernen](#4-weiterfhrend-python-lernen)
+    *   [4.1. CodeCombat](#41-codecombat)
+    *   [4.2. Coding - Katas](#42-coding---katas)
+    *   [4.3. Online - Kurse](#43-online---kurse)
+    *   [4.4. Eigene Projekte](#44-eigene-projekte)
     
 
 1 Lösungen zu den letzten Aufgaben
