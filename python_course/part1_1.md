@@ -15,8 +15,10 @@ Hello World, Datentypen, Variablen, Verzweigungen und Schleifen
 *   [5\. Flusskontrolle](#5-flusskontrolle)
 *   [6\. Schleifen](#6-schleifen)
 *   [7\. Kommentare](#7-kommentare)
-*   [8\. Zum Üben](#8-zum-ben)
+*   [8\. Endlos Katzen](#8-endlos-katzen)
 *   [9\. Code](#9-code)
+
+<br>
 
 1 Hello World
 -------------
@@ -38,6 +40,8 @@ Führt man diese Codezeile in Thonny aus, erscheint die Ausgabe in einem separat
 `print` ist eine Funktion, das bedeutet das der Print-Aufruf ein bestimmtes Verhalten auslöst. Funktionen werden wir später genauer kennen lernen, und wir werden auch eigene Funktionen schreiben.
 
 Weiterhin ist `print` eine sogenannte Built-In Funktion, d.h. sie ist ein fester Bestandteil der Programmiersprache Python und ihr könnt jederzeit auf sie zugreifen. Sie gibt das Funktionsargument auf der Konsole ("Shell" in Thonny) aus. Es gibt [eine Vielzahl von built-in Funktionen](https://docs.python.org/3/library/functions.html), einige davon werden wir auch noch im Kurs kennenlernen.
+
+<br>
 
 2 Datentypen
 ------------
@@ -65,6 +69,8 @@ print(type(1.2))
 ```
 
 (Tipp: In dem obigen code-block habe ich Funktionsaufrufe geschachtelt. Das kann man beliebig oft tun, geschachtelte Ausdrücke werden immer von innen nach aussen ausgewertet.)
+
+<br>
 
 3 Variablen
 -----------
@@ -100,7 +106,6 @@ print(zahl)
 42.0
 ```
 
-
 Zahlen können auch von Zeichenketten überschrieben werden
 
 ```python
@@ -120,6 +125,7 @@ print('Wieder was gelernt')
 Wieder was gelernt
 ```
 
+<br>
 
 4 Basisoperationen
 ------------------
@@ -191,7 +197,9 @@ print(0.1 + 0.2)
 Warum kommt bei `0.1 + 0.2` so ein krummes Ergebnis raus? Wie stellt der Computer "unendliche" Kommazahlen dar wie z.B. `1/3 = 0.333333.. `?
 Auch wenn es gerade komisch erscheint, es ist wichtig dies im Gedächnis zu behalten.
 Zum Beispiel die Zahl 0.1 kann nicht als binäre Zahl representiert werden und daher kommt es bei Fliesskommazahlen (0.1, 0.2, 0.3…) öfters zu kleinen Rundungsfehlern. 
-Mehr dazu kann man in der [offiziellen Python Doku nachlesen](https://docs.python.org/3/tutorial/floatingpoint.html)
+Mehr dazu kann man in der [offiziellen Python Doku](https://docs.python.org/3/tutorial/floatingpoint.html) nachlesen, 
+vorerst genügt es mal zu wissen, dass es zu Rundungsfehler kommen kann, für den Fall, dass ihr etwas mal ganz genau 
+ausrechnen müsst. 
 
 ### Zeichenketten 
 
@@ -258,24 +266,26 @@ print(type(True))
 <class 'bool'>
 ```
 
-Eine if-Anweisung nimmt einen Wahrheitswert entgegen, und führt den darauffolgenden eingerückten Code-Block nur aus, wenn dieser Wert True ist. In einer else - Anweisung kann der Codeblock angegeben werden, der alternativ ausgeführt werden soll.
+Eine if-Anweisung nimmt einen Wahrheitswert entgegen, und führt den darauffolgenden eingerückten Code-Block nur aus, wenn dieser Wert True ist.
 
 ```python
 es_ist_heiss = True
 if es_ist_heiss:
-print("Sonne")
+    print("Sonne")
 ```
 ```python
 Sonne
 ```
 
+In einer else - Anweisung kann der Codeblock angegeben werden, der alternativ ausgeführt werden soll.
+
 ```python
 es_ist_heiss = True
 
 if es_ist_heiss:
-print("Sonne")
+    print("Sonne")
 else:
-print("Schnee")
+    print("Schnee")
 ```
 ```python
 Sonne
@@ -286,13 +296,13 @@ Wahrheitswerte lassen sich auch aus Vorbedingungen berechnen. Zum Beispiel durch
 ```python
 temperatur = 40
 if temperatur <= 0:
-print ("Schnee")
+    print ("Schnee")
 
 if temperatur > 0 and temperatur < 20:
-print("Regen")
+    print("Regen")
 
 if temperatur >= 20:
-print("Sonne")
+    print("Sonne")
 ```
 
 ```python
@@ -306,11 +316,11 @@ Mit der elif Anweisung können wir beliebig viele Bedingungen hintereinander pr�
 ```python
 temperatur = 8
 if temperatur < 10:
-print("Temperatur ist kleiner als 10")
+    print("Temperatur ist kleiner als 10")
 elif temperatur < 20:
-print("Temperatur ist kleiner als 20")
+    print("Temperatur ist kleiner als 20")
 else:
-print("Temperatur ist größer oder gleich 20")
+    print("Temperatur ist größer oder gleich 20")
 ```
 ```python
 Temperatur ist kleiner als 10
@@ -319,7 +329,7 @@ Temperatur ist kleiner als 10
 Mit or und and können wir Bedingungen auch verknüpfen:
 ```python
 if sonne_scheint and is_sunday:
-print("It's an awesome day")
+    print("It's an awesome day")
 ```
 
 Solche Ausdrücke werden folgendermaßen ausgewertet:
@@ -331,6 +341,41 @@ Solche Ausdrücke werden folgendermaßen ausgewertet:
 |False|True|False|True|
 |False|False|False|False|
 
+### 5.1 Übung zur Flusskontrolle
+Versuch die folgende Aufgabe zu programmieren:
+Gegeben einer Variable `summe`, welche die Summe eines Einkaufs einer Person darstellt.
+Wenn die `summe` größer gleich 1000 ist, dann ziehe 10% discount von der `summe` ab.
+Wenn die `summe` größer gleich 500 und kleiner gleich 1000 ist, dann ziehe 5% discount ab.
+Liegt die `summe` unter 500 ziehe keinen discount ab.
+Gib den Wert der `summe` am Ende deines Programmes aus.
+
+Nun teste dein Programm indem du die summe mit den folgenden Werten gleichsetzt:
+- 2000
+- 1000
+- 505
+- 500
+- 499
+
+### Mögliche Lösung zu 5.1 Übung zur Flusskontrolle
+
+```python
+summe=1000
+if summe >= 1000:
+    summe-=summe*(10/100)
+    print(summe)
+elif summe >= 500 and summe > 1000:
+    summe-=summe*(5/100)
+    print(summe)
+else:
+   print(summe)
+```
+
+```python
+900
+```
+
+<br> 
+
 6 Schleifen
 -----------
 
@@ -339,8 +384,8 @@ Schleifen sind immer nützlich, wenn ihr Dinge wiederholt tun wollt. Zum Beispie
 ```python
 i = 1
 while i <= 10: # während i kleiner ist als 10
-i += 1 # erhöht i um 1. Kurzschreibweise für i = i + 1
-print(i)
+    i += 1 # erhöht i um 1. Kurzschreibweise für i = i + 1
+    print(i)
 ```
 
 ```
@@ -359,8 +404,8 @@ print(i)
 ```python
 b = 1
 while b <= 10:
-print(b)
-b += 2
+    print(b)
+    b += 2
 ```
 
 ```
@@ -378,11 +423,11 @@ Schleifen umspannen beliebige Code-Blöcke, zum Beispiel kann eine Schleife wied
 ```python
 a = 1
 while a < 7:
-if a % 2 == 0:
-print(a, "ist gerade")
-else:
-print(a, "ist ungerade")
-a += 1
+    if a % 2 == 0:
+        print(a, "ist gerade")
+    else:
+        print(a, "ist ungerade")
+    a += 1
 ```
 ```
 1 ist ungerade
@@ -394,6 +439,8 @@ a += 1
 ```
 
 Auch diese Schleife gibt es [als Animation.](https://goo.gl/images/bE3Mpq) Der Thonny Debugger kann auch besonders bei solchen komplizierten Konstrukten hilfreich sein.
+
+<br> 
 
 7 Kommentare
 ------------
@@ -407,7 +454,9 @@ print("Moin world") # Dieser Funktionsaufruf gibt Text auf der Konsole aus.
 Moin world
 ```
 
-8 Zum Üben
+<br> 
+
+8 Endlos Katzen
 ----------
 
 Es soll eine Schleife programmiert werden, die eine Animation anzeigt. Dafür habe ich eine .gif Animation bereitgestellt, sowie eine Funktion `show(i)`, welche das Bild mit der Sequenznummer i anzeigt. Die Sequenznummern gehen von 0 bis 12. Ladet euch die nötigen Dateien herunter ([hier klicken](https://github.com/falcowinkler/falcowinkler.github.io/raw/master/resources/python-course/uebung_for_loop.zip)), entpackt das Archiv und löst die aufgabe dann in der Datei `uebung.py`. Weitere Instruktionen sind in der Datei in Kommentaren beschrieben.
@@ -417,6 +466,8 @@ So oder so ähnlich sieht euer Endergebnis aus:
 ![cat.gif](https://raw.githubusercontent.com/falcowinkler/falcowinkler.github.io/master/resources/python-course/cat.gif)
 
 Figure 1: Katzenanimation mit einer for-schleife
+
+<br> 
 
 9 Code
 ------
