@@ -342,6 +342,31 @@ Solche Ausdrücke werden folgendermaßen ausgewertet:
 |False|False|False|False|
 
 ### 5.1 Übung zur Flusskontrolle
+Schreibe ein Programm um zu entscheiden ob wir rausgehen wollen oder nicht. 
+Gegeben von 2 Boolean Variablen, gib den Text “rausgehen” oder “nicht rausgehen” aus.
+wind: `False`
+regen: `True`
+
+Programmiere das folgende Szenario:
+Bei wind oder regen → “rausgehen”
+Bei wind und regen → “nicht rausgehen”
+Ansonsten “rausgehen”
+
+### Mögliche Lösung zu 5.2 Übung zur Flusskontrolle
+
+```python
+wind=False
+regen=True
+
+if wind or regen:
+    print("rausgehen")
+elif wind and regen:
+    print("nicht rausgehen")
+else:
+    print("rausgehen")
+```
+
+### 5.2 Übung zur Flusskontrolle
 Versuch die folgende Aufgabe zu programmieren:
 Gegeben einer Variable `summe`, welche die Summe eines Einkaufs einer Person darstellt.
 Wenn die `summe` größer gleich 1000 ist, dann ziehe 10% discount von der `summe` ab.
