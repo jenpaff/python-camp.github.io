@@ -11,7 +11,7 @@ Hello World, Datentypen, Variablen, Verzweigungen und Schleifen
 *   [2\. Datentypen](#2-datentypen)
 *   [3\. Variablen](#3-variablen)
 *   [4\. Basisoperationen](#4-basisoperationen)
-    *   [4.1. Übung: Einkauf](#41-bung-einkauf)
+    *   [4.1. Übung: Einkauf](#41-übung-einkauf)
 *   [5\. Flusskontrolle](#5-flusskontrolle)
 *   [6\. Schleifen](#6-schleifen)
 *   [7\. Kommentare](#7-kommentare)

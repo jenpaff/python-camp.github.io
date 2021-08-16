@@ -7,14 +7,14 @@ Baustein 1 Meeting 2
 
 Listen und die for-schleife
 
-* [1\. Aufwärmübungen](#1-aufwrmbungen)
+* [1. Aufwärmübungen](#1-aufwärmübungen)
     *   [1.1. Ampelschaltung](#11-ampelschaltung)
-    *   [1.2. Getränkeautomat](#12-getrnkeautomat)
-* [2\. Listen](#2-listen)
-    *   [Übungen zu Listen](#bungen-zu-listen)
-* [3\. for-Schleife](#3-for-schleife)
-* [4\. Übung: Labyrinth](#4-bung-labyrinth)
-* [5\. Weitere Übungen](#5-weitere-bungen)
+    *   [1.2. Getränkeautomat](#12-getränkeautomat)
+* [2. Listen](#2-listen)
+    *   [Übungen zu Listen](#übungen-zu-listen)
+* [3. for-Schleife](#3-for-schleife)
+* [4. Übung: Labyrinth](#4-übung-labyrinth)
+* [5. Weitere Übungen](#5-weitere-übungen)
     *   [5.1. for als while](#51-for-als-while)
     *   [5.2. Pyramiden bauen](#52-pyramiden-bauen)
     *   [5.3. Echte Pyramide](#53-echte-pyramide)
@@ -147,8 +147,8 @@ Es passiert auch häufig dass man eine Sequenz von Dingen der Reihe nach durchge
 ```python
 users = ["Anton", "Bertha", "Caesar", "Detlef", "Emil"]
 for name in users:
-    \# Name wird in jedem Schleifendurchlauf durch ein Listenelement ersetzt
-print(name + " ist super")
+    # Name wird in jedem Schleifendurchlauf durch ein Listenelement ersetzt
+    print(name + " ist super")
 ```
 
 ```python
@@ -163,7 +163,7 @@ Die `range` Funktion erlaubt es uns durch Zahlenfolgen zu iterieren. Dafür gebe
 
 ```python
 for i in range(1, 5):
-print(i)
+    print(i)
 ```
 ```
 1
@@ -173,7 +173,7 @@ print(i)
 ```
 ```python
 for i in range(1, 10, 2):
-print(i)
+    print(i)
 ```
 ```
 1
@@ -188,7 +188,7 @@ for-Schleifen können Grundsätzlich mit Allem arbeiten, was sich irgendwie nach
 ```python
 string = "mallorca"
 for letter in string:
-print(letter)
+    print(letter)
 ```
 ```
 m
@@ -205,30 +205,7 @@ a
 4 Übung: Labyrinth
 ------------------
 
-Die bisher kennengelernten Sprachbausteine scheinen aktuell noch sehr abstrakt, und man mag sich fragen wozu man sie denn braucht. Wie ihr schnell beim Lösen von Aufgaben und dem Umsetzen von Projekten merken werdet, sind sie aber absolut essentiell und werden sehr oft gebraucht.
-
-In dieser Aufgabe benutzen wir Listen und schleifen um ein Labyrinth zu erstellen, und dann einen Spielecharakter durch dieses Spielfeld zu bewegen.
-
-Ladet euch den Quellcode für diese Übung bitte [hier](https://github.com/falcowinkler/falcowinkler.github.io/raw/master/resources/python-course/python_labyrinth.zip) herunter. Die Datei muss dann vollständig entpackt werden (Das ist wichtig, unter windows funktioniert es sonst nicht). Öffnet dann die Datei playground.py in dem Ordner. Wenn ihr das Programm startet, seht ihr eine Spielfigur die sich über ein (noch relativ leeres) Spielfeld bewegt.
-
-*   Mit dem Befehl `set_size(breite, hoehe)` könnt ihr die Größe eures Spielfeldes festlegen.
-*   Es gibt eine männliche und eine weibliche Spielfigur, die ihr mit der Funktion `waehle_spieler()` auswählen könnt.
-
-Es gibt `steve` `amy` oder `default` zur Auswahl.
-
-*   Nutzt den `block`\-Befehl um ein Labyrinth zu erstellen. Die Zahlen sind (x, y) Koordinaten,
-
-und es gibt "Dreck", "Gras", "Wasser", "Ziel", und "Kohle".
-
-*   Nutzt den `bewegung`\-Befehl, um euch durch das Labyrinth zu Bewegen (Erlaubte Parameter sind links, rechts, hoch, runter).
-
-Falls ihr euch mit den Koordinaten nicht sicher seid, seht ihr hier eine Übersicht aller Koordinaten für ein 10 x 10 Labyrinth:
-
-![grid.png](https://raw.githubusercontent.com/falcowinkler/falcowinkler.github.io/master/resources/python-course/grid.png)
-
-Figure 1: Koordinatensystem
-
-Wenn euch diese Übung Spass gemacht hat, schaut mal auf [CodeCombat](https://codecombat.com/play/) :)
+check out [CodeCombat](https://codecombat.com/play/) for python gaming exercises
 
 5 Weitere Übungen
 -----------------
@@ -241,13 +218,13 @@ Versucht die selbe Funktionalität wie mit der for-Schleife oben mit einer while
 
 Versucht, ein Python-Programm zu schreiben, welches die Pyramide
 ```
-\*
-\*\*
-\*\*\*
-\*\*\*\*
-\*\*\*\*\*
-\*\*\*\*\*\*
-\*\*\*\*\*\*\*
+*
+**
+***
+****
+*****
+******
+*******
 ... etc.
 ```
 
@@ -257,19 +234,19 @@ ausgibt. Das Ganze soll in einer Schleife passieren, damit wir die höhe der Pyr
 
 Versucht, ein Python-Programm zu schreiben, welches eine "echte" Pyramide ausgibt:
 ```
-\*
-\*\*
-\*\*\*
-\*\*\*\*
-\*\*\*\*\*
-\*\*\*\*\*\*
-\*\*\*\*\*\*\*
-\*\*\*\*\*\*
-\*\*\*\*\*
-\*\*\*\*
-\*\*\*
-\*\*
-\*
+*
+**
+***
+****
+*****
+******
+*******
+******
+*****
+****
+***
+**
+*
 ```
 
 
