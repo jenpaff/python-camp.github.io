@@ -383,10 +383,12 @@ Nun teste dein Programm indem du die summe mit den folgenden Werten gleichsetzt:
 
 ### Mögliche Lösung zu 5.1 Übung zur Flusskontrolle
 
+Kleine Notiz: `summe-=summe*(10/100)` ist dasselbe wie `summe = summe - (summe *(10/100))` .
+
 ```python
 summe=1000
 if summe >= 1000:
-    summe-=summe*(10/100)
+    summe-=summe*(10/100) 
     print(summe)
 elif summe >= 500 and summe > 1000:
     summe-=summe*(5/100)

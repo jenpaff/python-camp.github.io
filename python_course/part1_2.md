@@ -7,13 +7,14 @@ Baustein 1 Meeting 2
 
 Listen und die for-schleife
 
-*   [1\. Aufwärmübungen](#1-aufwrmbungen)
+* [1\. Aufwärmübungen](#1-aufwrmbungen)
     *   [1.1. Ampelschaltung](#11-ampelschaltung)
     *   [1.2. Getränkeautomat](#12-getrnkeautomat)
-*   [2\. Listen](#2-listen)
-*   [3\. for-Schleife](#3-for-schleife)
-*   [4\. Übung: Labyrinth](#4-bung-labyrinth)
-*   [5\. Weitere Übungen](#5-weitere-bungen)
+* [2\. Listen](#2-listen)
+    *   [Übungen zu Listen](#bungen-zu-listen)
+* [3\. for-Schleife](#3-for-schleife)
+* [4\. Übung: Labyrinth](#4-bung-labyrinth)
+* [5\. Weitere Übungen](#5-weitere-bungen)
     *   [5.1. for als while](#51-for-als-while)
     *   [5.2. Pyramiden bauen](#52-pyramiden-bauen)
     *   [5.3. Echte Pyramide](#53-echte-pyramide)
@@ -100,6 +101,33 @@ Element aus der Liste: Schnabeltier
 ['Giraffe', 'Meerschweinchen', 'Affe', 'Großaugenmaki', 'Pottwal']
 ['Meerschweinchen', 'Affe', 'Großaugenmaki', 'Pottwal']
 ```
+
+### Übungen zu Listen:
+
+#### Übung 2.1. 
+Schreibe ein python Programm welches die Summe einer Liste ausgibt gegeben folgenden Inputs 
+
+```python
+input = [ 20, 1, 10, 3.5, 6.5, 9, 5, 5, 3, 7, 10]
+```
+
+#### Übung 2.2.
+Schreibe ein python Programm welches die oben gegebene Liste in eine neue Liste `input_copy` kopiert
+
+#### Extra Übungen
+Um diese Übungen zu lösen, kann es sein, dass du [weitere Funktionalitäten](https://docs.python.org/3/tutorial/datastructures.html) 
+der Liste nachschlagen musst. 
+
+##### Übung 2.3.
+Schreibe ein python Programm welches ausgibt ob eine Liste leer ist oder nicht. 
+
+##### Übung 2.4.
+Schreibe ein python Programm welches eine Liste rückwärts ausgibt. 
+
+##### Übung 2.5.
+Schreibe ein python Programm welches duplikate in einer Liste entfernt. 
+
+### Weiteres zu Listen:
 
 Und hier noch was Nützliches: Mit `split` kann man eine Zeichenkette anhand eines Trennzeichens aufteilen, und die "Splitter" in eine Liste stecken.
 
