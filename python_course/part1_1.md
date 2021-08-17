@@ -41,6 +41,26 @@ Führt man diese Codezeile in Thonny aus, erscheint die Ausgabe in einem separat
 
 Weiterhin ist `print` eine sogenannte Built-In Funktion, d.h. sie ist ein fester Bestandteil der Programmiersprache Python und ihr könnt jederzeit auf sie zugreifen. Sie gibt das Funktionsargument auf der Konsole ("Shell" in Thonny) aus. Es gibt [eine Vielzahl von built-in Funktionen](https://docs.python.org/3/library/functions.html), einige davon werden wir auch noch im Kurs kennenlernen.
 
+### Übungen
+
+#### 1.1 Übung
+Gib deinen (und den Namen deines Pairs aus)
+
+#### 1.2 Übung
+Inkludiere eine `\n` (newline) zwischen den Namen, um die Namen in einer neuen Zeile auszugeben
+
+#### 1.3. EXTRA Übung 
+Die [print funktion](https://docs.python.org/3/library/functions.html#print) akzeptiert optionale 
+Parameter z.B. `sep`, mit welchem wir mehrere übergebene Zeichenketten mit einem bestimmten Trennzeichen trennen können. 
+
+Probiere zb. das folgende Ergebnis zu erzeugen:
+
+# | input | ergebnis
+--- | --- | ---
+1.3.1 | `'09','12','2021'` | 09-12-2021
+1.3.2 | `'Bob','Alice','Anna'` | Bob & Alice & Anna
+1.3.3 | `'Bob','Alice','Anna'` | Bob & Alice & Anna!
+
 <br>
 
 2 Datentypen
@@ -69,6 +89,16 @@ print(type(1.2))
 ```
 
 (Tipp: In dem obigen code-block habe ich Funktionsaufrufe geschachtelt. Das kann man beliebig oft tun, geschachtelte Ausdrücke werden immer von innen nach aussen ausgewertet.)
+
+### Übungen
+
+#### 2.1 Übung
+Probiere eine Kommazahl auszugeben. Schau was passiert, wenn du statt dem `.` eine `,` verwendest.
+Könnt ihr verstehen was da passiert?
+
+#### 2.2 Übung
+Nun verwende die funktion `type` um den Datentyp einer korrekten Kommazahl auszugeben. Dann probiert nochmals
+was passiert wenn du das `.` mit einem `,` austauscht. Könnt ihr den Fehler entziffern? 
 
 <br>
 
@@ -125,6 +155,14 @@ print('Wieder was gelernt')
 Wieder was gelernt
 ```
 
+### Übungen
+
+#### 3.1 Übung
+Deklariere eine Variable für dein Alter und deinen Namen und gib diese aus.
+
+#### 3.2 Übung
+Füge eine Kommastelle zu deinem Alter hinzu und gib diese nochmal aus.
+
 <br>
 
 4 Basisoperationen
@@ -132,6 +170,7 @@ Wieder was gelernt
 
 Zahlen und Zeichenketten im Program zu haben ist ja schön und gut, aber was können wir damit anstellen? Mit Zahlen können wir z.B. rechnen, in der üblichen Schreibweise.
 
+Code snippet #1
 ```python
 x = 10
 y = 20
@@ -182,6 +221,44 @@ print(4 ** 4) # Potenz
 256
 ```
 
+### Übungen
+
+#### 4.1 Übung
+Kopiere die folgenden Zeilen und starte den Debugger und erkunde Zeile für Zeile was passiert:
+
+```python
+x = 10
+y = 20
+
+print(x + y)
+
+z = x + y
+
+print(z + 2)
+print(2 * 2)
+print(5 - 2)
+print(12 / 4)
+print(12 // 4) # Ganzzahlige Division
+print(10 * (20 + 5)) # Ausdrücke können beliebig geklammert werden
+print(13 % 5) # Modulo
+print(4 ** 4) # Potenz
+```
+
+#### 4.2 Übung
+Mit welcher Operation können wir bestimmen, ob eine Zahl gerade oder ungerade ist? Probiere dies mit den Zahlen:
+`2` `33` `40` `182012` `332425`
+
+#### 4.3. Übung
+Programmiere die folgenden Rechnungen und gib das Ergebnis aus: 
+
+# | input | ergebnis
+--- | --- | ---
+4.3.1 | addiere `27891` mit `2109` | `30000`
+4.3.2 | subtrahiere `891` von `27891` | `27000`
+4.3.3 | dividiere `292` durch 3 | `97.33333333333333`
+4.3.4 | dividiere `292` durch 3 und gib eine Ganzzahl aus | `97`
+4.3.5 | potenziere `14` hoch `4` | `38416`
+
 ### Interessantes über Floating Points
 
 Nun lasst uns mal über Floating Points (Fließkommazahlen) sprechen. 
@@ -217,7 +294,11 @@ moin moin moin moin moin Jürgen
 moin Jürgen
 ```
 
-Funktioniert das `+` auch mit Zahlen und Zeichenketten? Probiert das mal aus:
+### Übungen
+
+#### 4.4 Übung: 
+Funktioniert das zusammenfügen mit `+` auch mit Zahlen und Zeichenketten? **Spoiler-Alert**: Nein, wenn ihr als extra Übung
+den Fehler selbst lösen möchtet dann kopiert nur den Code und probiert es aus ohne weiterzulesen.
 
 ```python
 zahl = 42
@@ -225,10 +306,18 @@ zeichenkette = "72"
 print(zahl + zeichenkette)
 ```
 
+Je nachdem welches Ergebnis wir erlangen wollen, können wir die Zahl mit der Funktion `str` in eine Zeichenkette umwandeln
+oder die Zeichenkette mit der Funktion `int` in eine Zahl. Probiert mal beides aus und erkundet den Unterschied.
 
-### 4.1 Übung: Einkauf
+##### 4.5 Übung
+Deklariere eine Variable für dein Alter und deinen Namen und setze die Variablen im Satz ein, das Ergebnis
+sollte so aussehen: `Mein Name ist Jennifer und ich bin 24 Jahre alt.`
 
-Angenommen ihr habt 10 Euro dabei und wollt damit eine Schokolade, einen Lolli und eine Achterbahnfahrt kaufen. Wieviel bleibt übrig? Beginnt damit Variablen für die einzelnen Preise zu deklarieren. Das Ergebnis soll auch einer Variable zugewiesen und dann ausgegeben werden.
+#### 4.6 Übung: Einkauf
+
+Angenommen ihr habt 10 Euro dabei und wollt damit eine Schokolade, einen Lolli und eine Achterbahnfahrt kaufen. 
+Wie viel bleibt übrig? Beginnt damit Variablen für die einzelnen Preise zu deklarieren. 
+Das Ergebnis soll auch einer Variable zugewiesen und dann ausgegeben werden.
 
 |Produkt |Preis |
 |--- | --- |
@@ -236,7 +325,7 @@ Angenommen ihr habt 10 Euro dabei und wollt damit eine Schokolade, einen Lolli u
 |Lolli|2|
 |Achterbahn|1|
 
-### Mögliche Lösung zur 4.1 Übung: Einkauf
+#### Mögliche Lösung zur 4.6 Übung: Einkauf
 
 ```python
 schokolade = 1.5
@@ -252,6 +341,20 @@ print("Kosten:", kosten, "Rückgeld:", r_geld)
 ```
 Kosten: 6.5 Rückgeld: 3.5
 ```
+
+#### 4.7 Übung: Einkauf teilen
+Nun nehmen wir mal an ihr habt 30 Euro und wollt für eine Party (mit insgesamt 3 Leuten) einkaufen.
+Hier ist die Einkaufsliste:
+
+|Produkt |Preis pro Stk | Anzahl
+|--- | --- | --- |
+|Schokolade|1.5|7
+|Lolli|2|3
+|Aufstrich|3|2
+|Brot|1|4
+
+1. Rechnet zuerst den Gesamtpreis und das Restgeld aus
+2. Danach gibt aus wie viel Stück jedes Produkts jeder Gast bekommt und wie viel übrig bleibt. 
 
 5 Flusskontrolle
 ----------------
@@ -341,7 +444,9 @@ Solche Ausdrücke werden folgendermaßen ausgewertet:
 |False|True|False|True|
 |False|False|False|False|
 
-### 5.1 Übung zur Flusskontrolle
+### Übungen
+
+#### 5.1 Übung
 Schreibe ein Programm um zu entscheiden ob wir rausgehen wollen oder nicht. 
 Gegeben von 2 Boolean Variablen, gib den Text “rausgehen” oder “nicht rausgehen” aus.
 wind: `False`
@@ -352,7 +457,7 @@ Bei wind oder regen → “rausgehen”
 Bei wind und regen → “nicht rausgehen”
 Ansonsten “rausgehen”
 
-### Mögliche Lösung zu 5.2 Übung zur Flusskontrolle
+#### Mögliche Lösung zu 5.1
 
 ```python
 wind=False
@@ -366,22 +471,25 @@ else:
     print("rausgehen")
 ```
 
-### 5.2 Übung zur Flusskontrolle
+#### 5.2 Übung
 Versuch die folgende Aufgabe zu programmieren:
 Gegeben einer Variable `summe`, welche die Summe eines Einkaufs einer Person darstellt.
 Wenn die `summe` größer gleich 1000 ist, dann ziehe 10% discount von der `summe` ab.
-Wenn die `summe` größer gleich 500 und kleiner gleich 1000 ist, dann ziehe 5% discount ab.
+Wenn die `summe` größer gleich 500 und kleiner als 1000 ist, dann ziehe 5% discount ab.
 Liegt die `summe` unter 500 ziehe keinen discount ab.
 Gib den Wert der `summe` am Ende deines Programmes aus.
 
-Nun teste dein Programm indem du die summe mit den folgenden Werten gleichsetzt:
-- 2000
-- 1000
-- 505
-- 500
-- 499
+Nun teste dein Programm, indem du die summe mit den folgenden Werten gleichsetzt:
 
-### Mögliche Lösung zu 5.1 Übung zur Flusskontrolle
+|# | Input | Ergebnis
+|--- | --- | --- |
+|1| 2000 |1800
+|2|1000|900
+|3|505|479.75
+|4|500|475.0
+|5|499|499
+
+#### Mögliche Lösung zu 5.2 Übung
 
 Kleine Notiz: `summe-=summe*(10/100)` ist dasselbe wie `summe = summe - (summe *(10/100))` .
 
@@ -390,7 +498,7 @@ summe=1000
 if summe >= 1000:
     summe-=summe*(10/100) 
     print(summe)
-elif summe >= 500 and summe > 1000:
+elif summe >= 500 and summe < 1000:
     summe-=summe*(5/100)
     print(summe)
 else:
@@ -401,6 +509,15 @@ else:
 900
 ```
 
+#### 5.3 Übung
+Deklariere eine Variable `input` und erstelle das folgende Programm:
+- wenn die Zahl durch 3 teilbar ist, gib das Wort `Fizz` aus
+- wenn die Zahl durch 5 teilbar ist, gib das Wort `Buzz` aus
+- wenn die Zahl durch 3 und 5 teilbar ist, gib das Wort `FizzBuzz` aus
+- ansonsten gib einfach die Zahl aus
+
+Teste dies mit den Zahlen `1` bis `16`.
+
 <br> 
 
 6 Schleifen
@@ -408,6 +525,7 @@ else:
 
 Schleifen sind immer nützlich, wenn ihr Dinge wiederholt tun wollt. Zum Beispiel wäre es ziemlich nervig eine Codezeile für jeden User zu schreiben, dem ihr eine E-Mail schicken wollt. Mit Schleifen ist sowas aber kein Problem. while- Schleifen führen einen Codeblock aus, solange eine Bedingung wahr ist.
 
+Code snippet #1
 ```python
 i = 1
 while i <= 10: # während i kleiner ist als 10
@@ -428,6 +546,7 @@ while i <= 10: # während i kleiner ist als 10
 11
 ```
 
+Code snippet #2
 ```python
 b = 1
 while b <= 10:
@@ -447,6 +566,7 @@ Der Ablauf einer Schleife wird [in dieser Animation](https://goo.gl/images/sdRML
 
 Schleifen umspannen beliebige Code-Blöcke, zum Beispiel kann eine Schleife wieder eine Schleife oder eine If-Else Anweisung enthalten.
 
+Code snippet #3
 ```python
 a = 1
 while a < 7:
@@ -467,6 +587,32 @@ while a < 7:
 
 Auch diese Schleife gibt es [als Animation.](https://goo.gl/images/bE3Mpq) Der Thonny Debugger kann auch besonders bei solchen komplizierten Konstrukten hilfreich sein.
 
+
+### Übungen
+
+#### 6.1 Übung
+Verwende den Debugger, um die code snippets von dieser Sektion 6 Schritt für Schritt durchzugehen. 
+
+#### 6.2 Übung
+Erstelle eine Schleife welche jede 2. Zahl von 0 bis inkl. 20 ausgibt
+
+#### 6.3 Übung
+Erstelle eine Schleife welche jede 2. Zahl von 0 bis exkl. 20 ausgibt, wenn diese Zahl gerade ist
+
+#### 6.4 Übung
+Versuche nun die soeben erstellte Schleife rückwärts auszugeben, sodass du jede 2. Zahl von 20 bis exkl. 0
+ausgibst, wenn diese gerade ist.
+
+#### 6.5 EXTRA Übung: FizzBuzz extension
+Nun erweitern wir eine bestehende Übung. Kleiner fun fact, diese Aufgabe war eine beliebte tech interview
+Frage bei vielen Tech companies benutzt. 
+
+Erstelle eine Schleife welche die Zahlen von 0 bis inkl. 45 durchgeht und folgendes ausgibt:
+- wenn die Zahl durch 3 teilbar ist, gib das Wort `Fizz` aus
+- wenn die Zahl durch 5 teilbar ist, gib das Wort `Buzz` aus
+- wenn die Zahl durch 3 und 5 teilbar ist, gib das Wort `FizzBuzz` aus
+- ansonsten gib einfach die Zahl aus
+
 <br> 
 
 7 Kommentare
@@ -480,6 +626,10 @@ print("Moin world") # Dieser Funktionsaufruf gibt Text auf der Konsole aus.
 ```
 Moin world
 ```
+
+#### 7.1 Übung
+Habt ihr heute etwas gelernt oder einen Fehler ausgebessert? Dann geht in eure Dateien
+und fügt gelernte Weisheiten hinzu. 
 
 <br> 
 
