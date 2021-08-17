@@ -182,31 +182,46 @@ Element aus der Liste: Schnabeltier
 
 #### Übung 2.1.
 Führe die folgenden Aktionen aus: 
-- erstelle eine Liste `fave_cities = ["new york", "vienna" "sao paolo", "stockholm"]` und gib diese aus
+- erstelle eine Liste `fave_cities = ["new york", "vienna", "sao paolo", "stockholm"]` und gib diese aus
 - lösche eine beliebige Stadt mithilfe des Index und gib die Liste aus
 - füge eine neue Stadt hinzu und gib die Liste aus
 - lösche eine andere Stadt mithilfe des Namens und gib die Liste aus
 - ersetze eine der Städte in der Liste mit einer anderen Stadt und gib die Liste aus
 - lösche nun die ganze liste und versuch sie nochmals auszugeben und gib die Liste aus
 
-#### Übung 2.1. 
+#### Übung 2.2.
+Erstelle eine Schleife, welche jedes Element einer Liste einzeln ausgibt
+
+```python
+input = [ 20, 1, 10, 3.5]
+```
+
+sollte ergeben
+```
+20
+1
+10
+3.5
+```
+
+#### Übung 2.3. 
 Schreibe ein python Programm, welches die Summe einer Liste ausgibt gegeben folgenden Inputs 
 
 ```python
 input = [ 20, 1, 10, 3.5, 6.5, 9, 5, 5, 3, 7, 10]
 ```
 
-#### Übung 2.2.
+#### Übung 2.4.
 Schreibe ein python Programm welches die oben gegebene Liste in eine neue Liste `input_copy` kopiert
 
 #### Extra Übungen
 Um diese Übungen zu lösen, kann es sein, dass du [weitere Funktionalitäten](https://docs.python.org/3/tutorial/datastructures.html) 
 der Liste nachschlagen musst.
 
-##### Übung 2.3.
+##### Übung 2.5.
 Schreibe ein python Programm, welches eine Liste rückwärts ausgibt. 
 
-##### Übung 2.4.
+##### Übung 2.6.
 Schreibe ein python Programm welches duplikate in einer Liste entfernt. 
 
 ### Weiteres zu Listen:
