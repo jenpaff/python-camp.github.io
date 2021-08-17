@@ -463,10 +463,10 @@ Ansonsten “rausgehen”
 wind=False
 regen=True
 
-if wind or regen:
-    print("rausgehen")
-elif wind and regen:
+if wind and regen:
     print("nicht rausgehen")
+elif wind or regen:
+    print("rausgehen")
 else:
     print("rausgehen")
 ```

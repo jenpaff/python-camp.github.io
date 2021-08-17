@@ -303,20 +303,14 @@ c
 a
 ```
 
-
-4 Übung: Labyrinth
-------------------
-
-check out [CodeCombat](https://codecombat.com/play/) for python gaming exercises
-
-5 Weitere Übungen
+4 Weitere Übungen
 -----------------
 
-### 5.1 for als while
+### 4.1 for als while
 
 Versucht die selbe Funktionalität wie mit der for-Schleife oben mit einer while-Schleife zu erreichen.
 
-### 5.2 Pyramiden bauen
+### 4.2 Pyramiden bauen
 
 Versucht, ein Python-Programm zu schreiben, welches die Pyramide
 ```
@@ -332,7 +326,7 @@ Versucht, ein Python-Programm zu schreiben, welches die Pyramide
 
 ausgibt. Das Ganze soll in einer Schleife passieren, damit wir die höhe der Pyramide variieren können.
 
-### 5.3 Echte Pyramide
+### 4.3 Echte Pyramide
 
 Versucht, ein Python-Programm zu schreiben, welches eine "echte" Pyramide ausgibt:
 ```
@@ -352,7 +346,7 @@ Versucht, ein Python-Programm zu schreiben, welches eine "echte" Pyramide ausgib
 ```
 
 
-### 5.4 Zahlenmuster
+### 4.4 Zahlenmuster
 
 Schreibt ein Programm welches euch das Muster
 ```python
