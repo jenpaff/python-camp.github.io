@@ -50,6 +50,58 @@ alter = 10
 # ...
 ```
 
+### 1.3 Fibonacci
+
+Intro: Die Fibonacci Sequence ist eine Zahlenfolge:
+`0, 1, 1, 2, 3, 5, 8, 13, 21...`, wobei jede Zahl die Summe der vorherigen zwei Zahlen ergibt.
+Beginnend bei `0` und `1`, die 3. Zahl in der Reihe ist `0` + `1` = `1`. 
+Weiters, die 4. Zahl in der Reihe ist `1` + `1` = `2`, die 5. Zahl ergibt `1` + `2` = `3` usw.
+
+Schreibe eine Schleife welche die Fibonacci Sequence bis 50 ausgibt. 
+
+### 1.4 Celsius in Fahrenheit
+Wir werden nun einen Rechner programmieren, welcher uns Celsius in Fahrenheit um wieder zurück umwandelt.
+
+**Hier die Formeln**:
+
+Fahrenheit in Celsius:
+```
+T(°C) = (T(°F) - 32) × 5/9
+```
+
+z.B.
+```
+T(°C) = (68°F - 32) × 5/9 = 20 °C
+```
+
+Celsius in Fahrenheit umrechnen:
+```
+T(°F) = T(°C) × 9/5 + 32 
+```
+
+z.B.
+```
+T(°F) = 20°C × 9/5 + 32 = 68 °F
+```
+
+**1.4.1 Aufgabe**:
+- Deklariert eine Variable `temperature_value` um den Wert zu setzen welcher umgewandelt werden soll
+- und eine Variable `temperature_unit`, welche angibt ob es sich bei dem Wert um die Einheit Celsius oder Fahrenheit handelt (z.B setzt `C` für Celsius 
+und `F` für Fahrenheit) 
+- wenn die `temperature_unit` als `C` angegeben wurde, dann wollen wir in Fahrenheit umrechnen
+- wenn die `temperature_unit` als `F` angegeben wurde, dann wollen wir in Celsius umrechnen
+- gib am Ende den konvertierten Wert aus 
+
+### 1.4 EXTRA Celsius in Fahrenheit 
+
+#### 1.4.2
+- gib einen Text in der Konsole aus, wenn die Variable `temperature_unit` leer ist oder einen unbekannten Wert enthält
+
+#### 1.4.3
+- erweitere nun den Rechner um die Einheit `Kelvin`. Die Formel [findest du hier](https://www.rapidtables.com/convert/temperature/celsius-to-kelvin.html).
+
+
+
 2 Listen
 --------
 
