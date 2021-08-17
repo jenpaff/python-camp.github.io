@@ -44,7 +44,7 @@ Weiterhin ist `print` eine sogenannte Built-In Funktion, d.h. sie ist ein fester
 ### Übungen
 
 #### 1.1 Übung
-Gib deinen (und den Namen deines Pairs aus)
+Gib deinen (und den Namen deines Pairs) aus
 
 #### 1.2 Übung
 Inkludiere eine `\n` (newline) zwischen den Namen, um die Namen in einer neuen Zeile auszugeben
@@ -55,7 +55,7 @@ Parameter z.B. `sep`, mit welchem wir mehrere übergebene Zeichenketten mit eine
 
 Probiere zb. das folgende Ergebnis zu erzeugen:
 
-# | input | ergebnis
+|# | input | ergebnis
 --- | --- | ---
 1.3.1 | `'09','12','2021'` | 09-12-2021
 1.3.2 | `'Bob','Alice','Anna'` | Bob & Alice & Anna
@@ -251,7 +251,7 @@ Mit welcher Operation können wir bestimmen, ob eine Zahl gerade oder ungerade i
 #### 4.3. Übung
 Programmiere die folgenden Rechnungen und gib das Ergebnis aus: 
 
-# | input | ergebnis
+|# | input | ergebnis
 --- | --- | ---
 4.3.1 | addiere `27891` mit `2109` | `30000`
 4.3.2 | subtrahiere `891` von `27891` | `27000`
@@ -296,7 +296,7 @@ moin Jürgen
 
 ### Übungen
 
-#### 4.4 Übung: 
+#### 4.4 Übung
 Funktioniert das zusammenfügen mit `+` auch mit Zahlen und Zeichenketten? **Spoiler-Alert**: Nein, wenn ihr als extra Übung
 den Fehler selbst lösen möchtet dann kopiert nur den Code und probiert es aus ohne weiterzulesen.
 
@@ -343,7 +343,7 @@ Kosten: 6.5 Rückgeld: 3.5
 ```
 
 #### 4.7 Übung: Einkauf teilen
-Nun nehmen wir mal an ihr habt 30 Euro und wollt für eine Party (mit insgesamt 3 Leuten) einkaufen.
+Nun nehmen wir mal an ihr habt 30 Euro und wollt für eine Party (mit insgesamt 3 Personen) einkaufen.
 Hier ist die Einkaufsliste:
 
 |Produkt |Preis pro Stk | Anzahl
@@ -354,7 +354,7 @@ Hier ist die Einkaufsliste:
 |Brot|1|4
 
 1. Rechnet zuerst den Gesamtpreis und das Restgeld aus
-2. Danach gibt aus wie viel Stück jedes Produkts jeder Gast bekommt und wie viel übrig bleibt. 
+2. Danach gibt aus wie viel Stück jedes Produkts pro Gast verfügbar sind und wie viel übrig von jedem Produkt übrig bleibt. 
 
 5 Flusskontrolle
 ----------------
@@ -592,6 +592,8 @@ Auch diese Schleife gibt es [als Animation.](https://goo.gl/images/bE3Mpq) Der T
 
 #### 6.1 Übung
 Verwende den Debugger, um die code snippets von dieser Sektion 6 Schritt für Schritt durchzugehen. 
+Um dies ein wenig spannender zu machen, versuche vor jedem `print` vorherzusagen welcher Wert ausgegeben werden sollte
+und vergleiche dann das Ergebnis in der Konsole.
 
 #### 6.2 Übung
 Erstelle eine Schleife welche jede 2. Zahl von 0 bis inkl. 20 ausgibt
@@ -604,8 +606,8 @@ Versuche nun die soeben erstellte Schleife rückwärts auszugeben, sodass du jed
 ausgibst, wenn diese gerade ist.
 
 #### 6.5 EXTRA Übung: FizzBuzz extension
-Nun erweitern wir eine bestehende Übung. Kleiner fun fact, diese Aufgabe war eine beliebte tech interview
-Frage bei vielen Tech companies benutzt. 
+Nun erweitern wir die vorherige FizzBuzz Übung. Kleiner `fun fact`, diese Aufgabe war eine beliebte interview
+Frage bei vielen berühmten tech companies. 
 
 Erstelle eine Schleife welche die Zahlen von 0 bis inkl. 45 durchgeht und folgendes ausgibt:
 - wenn die Zahl durch 3 teilbar ist, gib das Wort `Fizz` aus
@@ -629,7 +631,7 @@ Moin world
 
 #### 7.1 Übung
 Habt ihr heute etwas gelernt oder einen Fehler ausgebessert? Dann geht in eure Dateien
-und fügt gelernte Weisheiten hinzu. 
+und fügt gelernte Weisheiten als Kommentare hinzu. 
 
 <br> 
 
