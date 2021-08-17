@@ -116,13 +116,37 @@ Listenelement kann alles Mögliche sein. Zahlen, Zeichenketten, Bool'sche Werte,
 ```python
 meine_liste = ["abc", "Stein", "Wasser", 1, 2]
 print(meine_liste[2]) #Wasser ist an Stelle 3, hat aber den Index 2.
-
-# wie könnte man die Länge der Liste bestimmen?
 ```
 ```python
 Wasser
 ```
-Natürlich können Listen noch einiges mehr: Löschen, Hinzufügen, und Verändern von Elementen. Dafür gibt es wieder [ziemlich viel Funktionalität](https://docs.python.org/3/tutorial/datastructures.html) von der wir einen Teil kennen lernen werden.
+
+Wie kann ich nun die Länge meiner Liste bestimmen? 
+```python
+meine_liste = ["abc", "Stein", "Wasser", 1, 2]
+print(len(meine_liste)) 
+```
+
+```python
+5
+```
+
+### Übungen
+
+#### 2.1 Übung
+1. Erstelle jeweils eine Liste von den folgenden Kategorien:
+- Städte in denen du mal gewohnt hast
+- deine/eure Lieblingsfilme
+2. Gib nun die Länge und den Inhalt jeder Liste aus
+
+#### 2.2 Übung
+
+Erstelle folgendes Programm: Gegeben einer Liste, 
+- wenn die Liste leer ist, gib den Text `Liste leer` aus
+- wenn die Liste nicht leer ist, gib die Länge der Liste und den Inhalt aus
+
+Natürlich können Listen noch einiges mehr: Löschen, Hinzufügen, und Verändern von Elementen. 
+Dafür gibt es wieder [ziemlich viel Funktionalität](https://docs.python.org/3/tutorial/datastructures.html) von der wir einen Teil kennen lernen werden.
 
 ```python
 animals = ["Giraffe", "Affe", "Schnabeltier", "Oxolotl"]
@@ -156,8 +180,17 @@ Element aus der Liste: Schnabeltier
 
 ### Übungen zu Listen:
 
+#### Übung 2.1.
+Führe die folgenden Aktionen aus: 
+- erstelle eine Liste `fave_cities = ["new york", "vienna" "sao paolo", "stockholm"]` und gib diese aus
+- lösche eine beliebige Stadt mithilfe des Index und gib die Liste aus
+- füge eine neue Stadt hinzu und gib die Liste aus
+- lösche eine andere Stadt mithilfe des Namens und gib die Liste aus
+- ersetze eine der Städte in der Liste mit einer anderen Stadt und gib die Liste aus
+- lösche nun die ganze liste und versuch sie nochmals auszugeben und gib die Liste aus
+
 #### Übung 2.1. 
-Schreibe ein python Programm welches die Summe einer Liste ausgibt gegeben folgenden Inputs 
+Schreibe ein python Programm, welches die Summe einer Liste ausgibt gegeben folgenden Inputs 
 
 ```python
 input = [ 20, 1, 10, 3.5, 6.5, 9, 5, 5, 3, 7, 10]
@@ -168,15 +201,12 @@ Schreibe ein python Programm welches die oben gegebene Liste in eine neue Liste 
 
 #### Extra Übungen
 Um diese Übungen zu lösen, kann es sein, dass du [weitere Funktionalitäten](https://docs.python.org/3/tutorial/datastructures.html) 
-der Liste nachschlagen musst. 
+der Liste nachschlagen musst.
 
 ##### Übung 2.3.
-Schreibe ein python Programm welches ausgibt ob eine Liste leer ist oder nicht. 
+Schreibe ein python Programm, welches eine Liste rückwärts ausgibt. 
 
 ##### Übung 2.4.
-Schreibe ein python Programm welches eine Liste rückwärts ausgibt. 
-
-##### Übung 2.5.
 Schreibe ein python Programm welches duplikate in einer Liste entfernt. 
 
 ### Weiteres zu Listen:
@@ -190,6 +220,11 @@ print(satz.split(" "))
 ```python
 ['The', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
 ```
+
+#### Übung 2.5.
+Erstelle eine Liste aus dem Satz `ich bin müde und will nach Hause`. Gib die Liste sowie die Länge der Liste aus.
+
+<br> 
 
 3 for-Schleife
 --------------
