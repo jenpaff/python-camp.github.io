@@ -36,10 +36,10 @@ Baustein 1 Meeting 3
 i = 0
 while i < 10:
 i += 1
-print("\*" \* i)
+print("\*" * i)
 while i > 0:
 i -= 1
-print("\*" \* i)
+print("\*" * i)
 ```
 
 ```
@@ -68,9 +68,9 @@ print("\*" \* i)
 oder auch:
 ```python
 for i in range(1, 10):
-print("\*" \* i)
+print("\*" * i)
 for i in range(10, 0, -1):
-print("\*" \* i)
+print("\*" * i)
 ```
 
 ```
@@ -99,7 +99,7 @@ print("\*" \* i)
 
 ```python
 for i in range(1, 10):
-print(str(i) \* i)
+print(str(i) * i)
 ```
 
 ```
@@ -185,11 +185,11 @@ print(zahlen[7:1:-1])
 ```
 
 ```
-\[1, 2, 3, 4, 5, 6\]
-\[5, 6, 7, 8, 9, 10\]
-\[0, 1, 2, 3, 4\]
-\[1, 3, 5\]
-\[7, 6, 5, 4, 3, 2\]
+[1, 2, 3, 4, 5, 6]
+[5, 6, 7, 8, 9, 10]
+[0, 1, 2, 3, 4]
+[1, 3, 5]
+[7, 6, 5, 4, 3, 2]
 ```
 
 
@@ -240,7 +240,7 @@ Ziel dieser Übung ist es eine Funktion `zeige_wort` für das Spiel "Hangman" zu
 Beispiel:
 
 ```
-zeige\_wort("schifffahrt", \['f', 's', 'h'\])
+zeige_wort("schifffahrt", ['f', 's', 'h'])
 ```
 
 Sollte `s_h_fff_h__` ausgeben.
@@ -329,7 +329,7 @@ geheimwort = "schifffahrt" # zur Einfachheit alles in kleinbuchstaben
 while True:
 eingabe = input()
 geraten.append(eingabe)
-# Hier zeige\_wort mit den richtigen parametern aufrufen!
+# Hier zeige_wort mit den richtigen parametern aufrufen!
 ```
 
 *   Nun soll "Game Over" mit eingebaut werden. Wenn die anzahl der geratenen Buchstaben
