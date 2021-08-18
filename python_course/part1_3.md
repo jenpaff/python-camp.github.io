@@ -5,22 +5,22 @@ layout: default
 Baustein 1 Meeting 3
 ====================
 
-*   [1\. Lösungen zu den letzten Aufgaben](#1-lsungen-zu-den-letzten-aufgaben)
+*   [1. Lösungen zu den letzten Aufgaben](#1-lsungen-zu-den-letzten-aufgaben)
     *   [1.1. Sternenpyramide](#11-sternenpyramide)
     *   [1.2. Zahlenmuster](#12-zahlenmuster)
-*   [2\. Listen](#2-listen)
+*   [2. Listen](#2-listen)
     *   [2.1. Sortieren](#21-sortieren)
     *   [2.2. Negative Indexe](#22-negative-indexe)
     *   [2.3. Übung - Sortieren und negative Indexe](#23-bung---sortieren-und-negative-indexe)
     *   [2.4. Slicing](#24-slicing)
     *   [2.5. Übung - Slicing](#25-bung---slicing)
-*   [3\. Funktionen](#3-funktionen)
+*   [3. Funktionen](#3-funktionen)
     *   [3.1. Übung: Hangman](#31-bung-hangman)
-*   [4\. Wörterbücher](#4-wrterbcher)
-*   [5\. User-Eingaben](#5-user-eingaben)
+*   [4. Wörterbücher](#4-wrterbcher)
+*   [5. User-Eingaben](#5-user-eingaben)
     *   [5.1. Übung - Interaktives Hangman spiel](#51-bung---interaktives-hangman-spiel)
     *   [5.2. Übung - Wörterbücher und Nutzereingaben](#52-bung---wrterbcher-und-nutzereingaben)
-*   [6\. Wiederholung](#6-wiederholung)
+*   [6. Wiederholung](#6-wiederholung)
     *   [6.1. Funktionen](#61-funktionen)
     *   [6.2. Fortgeschritten: Number Guessing Game](#62-fortgeschritten-number-guessing-game)
 
@@ -248,7 +248,7 @@ Sollte `s_h_fff_h__` ausgeben.
 Wichtige tipps:
 
 *   Mit der `for` schleife kann man die einzelnen Buchstaben einer Zeichenkette durchlaufen
-*   mit print("\_", end="") kann man einzelne Buchstaben auf der Konsole ausgeben
+*   mit print("_", end="") kann man einzelne Buchstaben auf der Konsole ausgeben
 *   Ob ein Buchstabe in einer Liste vorhanden ist, könnt ihr mit dem `in` Schlüsselwort herausfinden. Beispiel:
 
 ```python

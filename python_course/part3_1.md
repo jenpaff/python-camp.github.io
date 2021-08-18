@@ -5,9 +5,9 @@ layout: default
 Baustein 3 Meeting 1
 ====================
 
-*   [1\. Warmup](#1-warmup)
+*   [1. Warmup](#1-warmup)
     *   [1.1. Übung: FLAME game](#11-bung-flame-game)
-*   [2\. Objektorientierte Programmierung](#2-objektorientierte-programmierung)
+*   [2. Objektorientierte Programmierung](#2-objektorientierte-programmierung)
     *   [2.1. Wiederholung der Basics](#21-wiederholung-der-basics)
     *   [2.2. Übung (Funktionen+Objekte): Trip-Kosten](#22-bung-funktionenobjekte-trip-kosten)
 

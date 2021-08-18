@@ -5,10 +5,10 @@ layout: default
 Baustein 3 Meeting 1
 ====================
 
-* [1\. Objektorientierte Programmierung (forts.)](#1-objektorientierte-programmierung-forts)
+* [1. Objektorientierte Programmierung (forts.)](#1-objektorientierte-programmierung-forts)
     * [1.1. Übung: Highscore Liste](#11-bung-highscore-liste)
     * [1.2. Vererbung](#12-vererbung)
-* [2\. Higher order Funktionen, Lambda-Funktionen](#2-higher-order-funktionen-lambda-funktionen)
+* [2. Higher order Funktionen, Lambda-Funktionen](#2-higher-order-funktionen-lambda-funktionen)
 
 
 1 Objektorientierte Programmierung (forts.)
@@ -51,7 +51,7 @@ print(highScoreTable.scores) # []
 ```python
 class Animal:
 
-    def \_\_init\_\_(self, name, age):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
 
@@ -64,7 +64,7 @@ class Animal:
 class Bird(Animal):
 
     def fly(self):
-        print("Ich kann flieeeegen - " \+ self.name + ".")
+        print("Ich kann flieeeegen - " + self.name + ".")
 
 class Dog(Animal):
 
@@ -79,8 +79,8 @@ class Mops(Dog):
 
 class Parrot(Bird):
 
-    def \_\_init\_\_(self, name, age, color):
-        super().\_\_init\_\_(name, age)
+    def __init__(self, name, age, color):
+        super().__init__(name, age)
         self.color = color
 
 loewe = Animal("Löwe", 5)

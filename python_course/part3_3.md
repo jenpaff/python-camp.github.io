@@ -4,11 +4,11 @@ layout: default
 
 Baustein 3 Meeting 1
 
-* [1\. Wiederholung und Warmup](#1-wiederholung-und-warmup)
+* [1. Wiederholung und Warmup](#1-wiederholung-und-warmup)
     * [1.1. Übung: Wetterdaten auswerten](#11-bung-wetterdaten-auswerten)
-* [2\. Fortgeschrittene Sprachkonstrukte](#2-fortgeschrittene-sprachkonstrukte)
+* [2. Fortgeschrittene Sprachkonstrukte](#2-fortgeschrittene-sprachkonstrukte)
     * [2.1. Übung](#21-bung)
-* [3\. Python - Standardbibliothek](#3-python---standardbibliothek)
+* [3. Python - Standardbibliothek](#3-python---standardbibliothek)
     * [3.1. Übung](#31-bung)
     * [3.2. Wiederholung](#32-wiederholung)
 
@@ -31,7 +31,7 @@ Eure Aufgabe ist es, Wetterdaten (gegeben als `str`) in einem bestimmten Format,
 
 ```python
 def anwenden(funktion, liste):
-neue_liste = \[\]
+neue_liste = []
 for element in liste:
 neues_element = funktion(element)
 neue_liste.append(neues_element)
@@ -56,7 +56,7 @@ data = """Rome:Jan 81.2,Feb 63.2,Mar 70.3,Apr 55.7,May 53.0,Jun 36.4,Jul 17.5,Au
 London:Jan 48.0,Feb 38.9,Mar 39.9,Apr 42.2,May 47.3,Jun 52.1,Jul 59.5,Aug 57.2,Sep 55.4,Oct 62.0,Nov 59.0,Dec 52.9
 Paris:Jan 182.3,Feb 120.6,Mar 158.1,Apr 204.9,May 323.1,Jun 300.5,Jul 236.8,Aug 192.9,Sep 66.3,Oct 63.3,Nov 83.2,Dec 154.7
 NY:Jan 108.7,Feb 101.8,Mar 131.9,Apr 93.5,May 98.8,Jun 93.6,Jul 102.2,Aug 131.8,Sep 92.0,Oct 82.3,Nov 107.8,Dec 94.2"""
-print(city\_average\_rainfalls(data)) \# {'Rome': 66.02499999999999, 'London': 51.199999999999996, 'Paris': 173.89166666666665, 'NY': 103.21666666666665}
+print(city_average_rainfalls(data)) # {'Rome': 66.02499999999999, 'London': 51.199999999999996, 'Paris': 173.89166666666665, 'NY': 103.21666666666665}
 ```
 
 ([referenz](https://www.codewars.com/kata/56a32dd6e4f4748cc3000006/train/python))

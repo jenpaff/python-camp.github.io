@@ -5,7 +5,7 @@ layout: default
 Baustein 2 Meeting 1
 ====================
 
-*   [1\. Wiederholung](#1-wiederholung)
+*   [1. Wiederholung](#1-wiederholung)
     *   [1.1. Teil 1: Variablen und Datentypen, Rechnen](#11-teil-1-variablen-und-datentypen-rechnen)
     *   [1.2. Teil 2: while - Schleife, Bedingungen](#12-teil-2-while---schleife-bedingungen)
     *   [1.3. Teil 3: Funktionen, Listen, For - Schleifen](#13-teil-3-funktionen-listen-for---schleifen)
@@ -50,15 +50,15 @@ while ...:
 Diese Aufgabe kombiniert viele der bisherigen Konzepte. Ihr sollt eine Funktion `punkte` schreiben, welche die Punktezahl für einen multiple-choice test ausgibt. Genauer gesagt nimmt diese Funktion zwei Listen als Parameter an. Beide der Listen enthalten Buchstaben von a bis d, in der ersten Liste stehen die Lösungen, in der zweiten Liste die Antworten. Eine falsche Antwort gibt -1 Punkt, eine richtige gibt +4 Punkte.
 
 ```python
-loesungen = \["a", "a", "b", "b"\]
-antworten = \["a", "c", "b", "d"\]
+loesungen = ["a", "a", "b", "b"]
+antworten = ["a", "c", "b", "d"]
 ```
 
 Ein Hinweis: Um beide Listen miteinander zu vergleichen, gibt es die praktische Built-in Funktion `zip`. Diese kombiniert zwei Listen wie ein Reisverschluss, und liefert uns paare mit dem selben index, durch die wir iterieren können.
 
 ```python
-loesungen = \["a", "a", "b", "b"\]
-antworten = \["a", "c", "b", "d"\]
+loesungen = ["a", "a", "b", "b"]
+antworten = ["a", "c", "b", "d"]
 for loesung, antwort in zip(loesungen, antworten):
 print(loesung == antwort)
 ```
