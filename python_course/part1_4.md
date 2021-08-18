@@ -115,19 +115,19 @@ Weitere interessante Operationen mit sets sind die sogenannten Mengenoperationen
 saeugetiere = {"löwe", "pferd", "eierlegende wollmilchsau", "schnabeltier", "giraffe", "affe"}
 ovipare = {"rabe", "spatz", "eierlegende wollmilchsau", "schnabeltier", "tucan", "papagei"}
 
-\# Welche Tiere legen Eier und sind Säugetiere?
+# Welche Tiere legen Eier und sind Säugetiere?
 
 print(saeugetiere & ovipare)
 
-\# Welche tiere legen nur Eier
+# Welche tiere legen nur Eier
 
 print(ovipare - saeugetiere)
 
-\# Welche tiere legen Eier, oder sind Säugetiere, aber nicht beides?
+# Welche tiere legen Eier, oder sind Säugetiere, aber nicht beides?
 
 print(ovipare ^ saeugetiere)
 
-\# Alle tiere (Vereinigung beider mengen)
+# Alle tiere (Vereinigung beider mengen)
 
 print(saeugetiere | ovipare)
 ```
