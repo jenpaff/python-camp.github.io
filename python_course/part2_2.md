@@ -6,9 +6,9 @@ Baustein 2 Meeting 2
 ====================
 
 *   [1. Dateien lesen und schreiben](#1-dateien-lesen-und-schreiben)
-*   [2. Übungen (Dateien)](#2-bungen-dateien)
-    *   [2.1. Dateien zusammenführen](#21-dateien-zusammenfhren)
-    *   [2.2. Wörter zählen](#22-wrter-zhlen)
+*   [2. Übungen (Dateien)](#2-übungen-dateien)
+    *   [2.1. Dateien zusammenführen](#21-dateien-zusammenführen)
+    *   [2.2. Wörter zählen](#22-wörter-zhlen)
 *   [3. Bibliotheken](#3-bibliotheken)
     *   [3.1. math](#31-math)
     *   [3.2. time](#32-time)

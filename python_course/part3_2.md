@@ -6,7 +6,7 @@ Baustein 3 Meeting 1
 ====================
 
 * [1. Objektorientierte Programmierung (forts.)](#1-objektorientierte-programmierung-forts)
-    * [1.1. Übung: Highscore Liste](#11-bung-highscore-liste)
+    * [1.1. Übung: Highscore Liste](#11-übung-highscore-liste)
     * [1.2. Vererbung](#12-vererbung)
 * [2. Higher order Funktionen, Lambda-Funktionen](#2-higher-order-funktionen-lambda-funktionen)
 

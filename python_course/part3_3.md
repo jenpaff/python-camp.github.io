@@ -5,11 +5,11 @@ layout: default
 Baustein 3 Meeting 1
 
 * [1. Wiederholung und Warmup](#1-wiederholung-und-warmup)
-    * [1.1. Übung: Wetterdaten auswerten](#11-bung-wetterdaten-auswerten)
+    * [1.1. Übung: Wetterdaten auswerten](#11-übung-wetterdaten-auswerten)
 * [2. Fortgeschrittene Sprachkonstrukte](#2-fortgeschrittene-sprachkonstrukte)
-    * [2.1. Übung](#21-bung)
+    * [2.1. Übung](#21-übung)
 * [3. Python - Standardbibliothek](#3-python---standardbibliothek)
-    * [3.1. Übung](#31-bung)
+    * [3.1. Übung](#31-übung)
     * [3.2. Wiederholung](#32-wiederholung)
 
 Baustein 3 Meeting 1

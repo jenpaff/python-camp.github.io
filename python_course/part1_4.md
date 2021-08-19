@@ -5,16 +5,16 @@ layout: default
 Baustein 1 Meeting 4
 ====================
 
-*   [1. Lösungen zu den letzten Aufgaben](#1-lsungen-zu-den-letzten-aufgaben)
+*   [1. Lösungen zu den letzten Aufgaben](#1-lösungen-zu-den-letzten-aufgaben)
     *   [1.1. Funktionen](#11-funktionen)
     *   [1.2. Number guessing game](#12-number-guessing-game)
 *   [2. Mengen](#2-mengen)
-    *   [2.1. Übung: gemeinsame Buchstaben](#21-bung-gemeinsame-buchstaben)
+    *   [2.1. Übung: gemeinsame Buchstaben](#21-übung-gemeinsame-buchstaben)
 *   [3. Objektorientierte Programmierung](#3-objektorientierte-programmierung)
     *   [3.1. Klassen und Objekte](#31-klassen-und-objekte)
-    *   [3.2. Übung: Objektorientiertes Bankkonto](#32-bung-objektorientiertes-bankkonto)
-    *   [3.3. Übung (fortgeschritten): Piraterie](#33-bung-fortgeschritten-piraterie)
-*   [4. Weiterführend: Python lernen](#4-weiterfhrend-python-lernen)
+    *   [3.2. Übung: Objektorientiertes Bankkonto](#32-übung-objektorientiertes-bankkonto)
+    *   [3.3. Übung (fortgeschritten): Piraterie](#33-übung-fortgeschritten-piraterie)
+*   [4. Weiterführend: Python lernen](#4-weiterführend-python-lernen)
     *   [4.1. CodeCombat](#41-codecombat)
     *   [4.2. Coding - Katas](#42-coding---katas)
     *   [4.3. Online - Kurse](#43-online---kurse)
