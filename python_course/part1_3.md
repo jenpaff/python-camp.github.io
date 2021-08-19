@@ -301,6 +301,14 @@ Wenn ein Schlüssel im Wörterbuch nicht gefunden wird, dann stürzt euer Progra
 if "cat" in woerterbuch:
 print(woerterbuch["cat"])
 ```
+### 4.1 Übung - Wörterbücher und Funktionen
+
+Schreibe eine Funktion "translate", die zu einem gegebenen Wort die Übersetzung aus dem Wörterbuch ausgibt. Wenn das Wort nicht gefunden werden konnte, gib sie "Das Wort konnte leider nicht gefunden werden":
+
+```python
+woerterbuch = {"cat": "Katze", "platypus": "Schnabeltier", "rain" : "Regen"}
+# ...
+```
 
 5 User-Eingaben
 ---------------
